@@ -27,6 +27,4 @@ This app features an intuitive, easy-to-navigate interface with a modern design.
 
 Follow these steps to get the project up and running locally on your machine:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
+
