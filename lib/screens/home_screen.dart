@@ -90,8 +90,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
                 children: [
-                  _buildCategoryItem(context, Icons.code, 'Programming',
-                      const ProgrammingScreen()),
+                  _buildCategoryItem(
+                      context, Icons.code, 'Programming', ProgrammingScreen()),
                   _buildCategoryItem(context, Icons.palette, 'Art & Design',
                       const ArtDesignScreen()),
                   _buildCategoryItem(context, Icons.language,
