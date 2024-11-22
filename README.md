@@ -1,16 +1,32 @@
-# skill_swap
+# SkillSwap
 
-A new Flutter project.
+**SkillSwap** is a mobile app built with Flutter that allows users to swap skills with others. Users can browse through various categories like programming, art & design, language learning, music, sports, and science to find people to exchange skills with, helping each other grow in their areas of interest.
 
-## Getting Started
+This app features an intuitive, easy-to-navigate interface with a modern design. Users can search for skills, view available categories, and get in touch with others who are interested in skill exchange.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Splash Screen**: Displays the SkillSwap logo and a brief description.
+- **Home Screen**: Categorized skills are presented with icons for easy navigation. Categories include:
+  - Programming
+  - Art & Design
+  - Language Learning
+  - Music
+  - Sports
+  - Science
+- **Search Functionality**: Users can search for specific skills using the search bar.
+- **Category Screens**: Each category screen shows relevant skills or users within the category.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: Cross-platform mobile app development framework.
+- **Dart**: Programming language used for building the app.
+- **Material Design**: UI components and design principles used to build the app’s interface.
+
+## Installation
+
+Follow these steps to get the project up and running locally on your machine:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
