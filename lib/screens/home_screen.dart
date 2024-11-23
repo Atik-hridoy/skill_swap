@@ -14,10 +14,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  // Controller for the search bar text input
   TextEditingController _searchController = TextEditingController();
 
-  // Helper function to create a category tile
   Widget _buildCategoryItem(
       BuildContext context, IconData icon, String title, Widget screen) {
     return GestureDetector(
@@ -59,7 +57,6 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Search Box under the AppBar
             Container(
               width: double.infinity,
               padding: const EdgeInsets.symmetric(vertical: 8.0),
@@ -77,13 +74,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   prefixIcon: const Icon(Icons.search, color: Colors.white),
                 ),
                 style: const TextStyle(color: Colors.white),
-                onChanged: (query) {
-                  // Handle search logic here (e.g., filter category tiles)
-                },
+                onChanged: (query) {},
               ),
             ),
-
-            // Category Grid
             Expanded(
               child: GridView.count(
                 crossAxisCount: 2,

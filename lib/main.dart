@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart'; // Import SplashScreen
-import 'screens/home_screen.dart'; // Import HomeScreen
+import 'screens/splash_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const SplashScreen(),
-      debugShowCheckedModeBanner: false, // SplashScreen is the starting screen
+      debugShowCheckedModeBanner: false,
     );
   }
 }

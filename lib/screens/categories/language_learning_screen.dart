@@ -31,7 +31,6 @@ class LanguageLearningScreen extends StatelessWidget {
             const SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {
-                // Add functionality here if needed
                 ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Feature coming soon!')),
                 );
